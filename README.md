@@ -2,6 +2,8 @@
 This is the code from [deepfakes' faceswap project](https://www.reddit.com/user/deepfakes/).
 Hope we can improve it together, HAVE FUN!
 
+![training results](doc/result.png)
+
 Message from deepfakes:
 
 **Whole project with training images and trained model (~300MB):**  
