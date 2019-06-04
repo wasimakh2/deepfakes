@@ -19,7 +19,9 @@ def random_transform( image, rotation_range, zoom_range, shift_range, random_fli
 # get pair of random warped images from aligened face image
 def random_warp( image ):
     assert image.shape == (256,256,3)
-    range_ = numpy.linspace( 128-80, 128+80, 5 )
+    # range_ = numpy.linspace( 128-80, 128+80, 5 )
+    # from center to border, how wide
+    range_ = numpy.linspace( 128-128, 128+128, 5 )
     mapx = numpy.broadcast_to( range_, (5,5) )
     mapy = mapx.T
 
